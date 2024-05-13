@@ -20,17 +20,18 @@ int main()
     }
     if(pago_n < 2000)
     {
-        cout << " Libre de impuestos";
+        cout << "Libre de impuestos" << "\n";
     }
     else if (pago_n >= 2000 && pago_n < 2200)
     {
         impuestos = pago_n * 0.2;
-        cout << " con impuesto del 20% = " << impuestos;
+        cout << "Con impuesto del 20% = " << impuestos << "\n";
     }
     else
     {
         impuestos = pago_n * 0.3;
-        cout << " con un impuesto del 30% = " << impuestos;
+        cout << "Con un impuesto del 30% = " << impuestos << "\n";
     }
+    cout << "Su pago total es de: " << pago_n + impuestos << "$";
    return 0;
 }
