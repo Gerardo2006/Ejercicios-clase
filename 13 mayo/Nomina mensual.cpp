@@ -32,6 +32,6 @@ int main()
         impuestos = pago_n * 0.3;
         cout << "Con un impuesto del 30% = " << impuestos << "\n";
     }
-    cout << "Su pago total es de: " << pago_n + impuestos << "$";
+    cout << "Su pago total es de: " << pago_n - impuestos << "$";
    return 0;
 }
